@@ -9,7 +9,6 @@ main() {
   print(x);
   print(y);
   print(z);
-
   // Strings
   String name = 'Daniel';
   print(name);
@@ -19,11 +18,14 @@ main() {
   String.......
   ''';
   print(multiline);
-
-
   // Booleans
+  bool active = true;
+  bool inactive = false;
+  bool isNull = null;
 
-
+  print(active);
+  print(inactive);
+  print(isNull);
   // Lists
 
 
