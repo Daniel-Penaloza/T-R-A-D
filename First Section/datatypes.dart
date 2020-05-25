@@ -11,6 +11,14 @@ main() {
   print(z);
 
   // Strings
+  String name = 'Daniel';
+  print(name);
+
+  String multiline = '''
+  This is a multiline
+  String.......
+  ''';
+  print(multiline);
 
 
   // Booleans
