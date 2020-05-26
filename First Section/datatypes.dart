@@ -43,9 +43,11 @@ main() {
   marvelHeroes[2] = 'Ironman';
   print(marvelHeroes);
 
-  // Sets
-
-
-
+  // Sets - No agrega elementos repetidos
+  Set<String> uncharted = {'Sully', 'Nathan', 'Drake'};
+  uncharted.add('Sully');
+  print(uncharted);
+  
   // Maps
+  
 }
