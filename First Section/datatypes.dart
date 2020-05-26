@@ -27,8 +27,21 @@ main() {
   print(inactive);
   print(isNull);
   // Lists
+  List<String> personajes = ['Superman', 'Batman'];
+  personajes..add('Flash')
+            ..add('Aquaman')
+            ..add('Flash');
+  print(personajes);
 
+  List<String> villanos = new List();
+  villanos.addAll(['Darkseid', 'Joker', 'Red Hood']);
+  print(villanos); 
 
+  List<String> marvelHeroes = new List(3);
+  marvelHeroes[0] = 'Thor';
+  marvelHeroes[1] = 'Spider Man';
+  marvelHeroes[2] = 'Ironman';
+  print(marvelHeroes);
 
   // Sets
 
