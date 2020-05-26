@@ -49,5 +49,17 @@ main() {
   print(uncharted);
   
   // Maps
-  
+  Map<dynamic, String> metalgear = {
+    'name': 'Solid Snake',
+    'allied': 'Otagon',
+    'real_name': 'David',
+    'enemies': 'The patriots'
+  };
+
+  print('The name of this element is ${metalgear['name']} with an age of ${metalgear['age']}');
+
+
+  Map<String, dynamic> car = new Map();
+  car.addAll({'Make': 'Ford', 'Model' : 'Focus'});
+  print(car);
 }
