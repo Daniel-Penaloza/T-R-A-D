@@ -42,4 +42,17 @@ main(){
     stdout.writeln('The value of the number is ${theNumber}');
     theNumber--;
   }while(theNumber >= 0);
+
+  // BREAK AND CONTINUE
+  for(var i = 0; i < 10; i ++){
+    if( i == 5) {
+      // Jump's the number 5
+      continue;
+    }
+    print(i);
+    if( i == 2) {
+      // Interrupt the program in the number 2
+      break;
+    }
+  }
 }
