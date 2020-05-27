@@ -34,4 +34,12 @@ main(){
     stdout.writeln('Do you want to continue? (yes/no)');
     option = stdin.readLineSync();
   }
+
+
+  // DO WHILE STATEMENT
+  int theNumber = 10;
+  do {
+    stdout.writeln('The value of the number is ${theNumber}');
+    theNumber--;
+  }while(theNumber >= 0);
 }
