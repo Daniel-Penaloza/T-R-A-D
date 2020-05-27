@@ -24,4 +24,14 @@ main(){
   for (var element in myList) {
     print("${element}");
   }
+
+  // WHILE STATEMENT
+  String option = 'yes';
+  int counter = 0;
+  while(option == 'yes'){
+    counter++;
+    stdout.writeln('The value of the counter is ${counter}');
+    stdout.writeln('Do you want to continue? (yes/no)');
+    option = stdin.readLineSync();
+  }
 }
