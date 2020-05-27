@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math';
 
 main(){
   // IF-ELSE
@@ -35,7 +36,6 @@ main(){
     option = stdin.readLineSync();
   }
 
-
   // DO WHILE STATEMENT
   int theNumber = 10;
   do {
@@ -71,5 +71,33 @@ main(){
     
     }
   
+  }
+
+  // SWITCH STATEMENTS
+  int rnd = Random().nextInt(7);
+  switch(rnd) {
+    case 0:
+      print('Monday');
+      break;
+    case 1:
+      print('Tuesday');
+      break;
+    case 2:
+      print('Wednesday');
+      break;
+    case 3:
+      print('Thursday');
+      break;
+    case 4:
+      print('Friday');
+      break;
+    case 5:
+      print('Saturday');
+      break;
+    case 6:
+      print('Sunday');
+      break;
+    default:
+      print('It\'s not a day of the week');
   }
 }
