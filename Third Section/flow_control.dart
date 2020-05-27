@@ -11,4 +11,11 @@ main(){
   } else {
     stdout.writeln('Not Legal');
   }
+
+  // FOR STATEMENT
+  stdout.writeln('Add a number for a multiplication');
+  int number = int.parse(stdin.readLineSync());
+  for(int i = 1; i <= 10; i++){
+    print('${number} * ${i}: ${number * i}');
+  }
 }
