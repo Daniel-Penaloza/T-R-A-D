@@ -55,4 +55,21 @@ main(){
       break;
     }
   }
+
+  // FOR WITH LABELS
+  outerFor:
+  for(var i = 0; i < 5; i++){
+    print('i Value: ${i}');
+    
+    innerFor:
+    for(int j = 0; j < 5; j++){
+      print('j Value: ${j}');
+      
+      if(j == 2){
+        break outerFor;
+      }
+    
+    }
+  
+  }
 }
