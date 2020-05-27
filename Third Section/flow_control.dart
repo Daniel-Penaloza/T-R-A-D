@@ -18,4 +18,10 @@ main(){
   for(int i = 1; i <= 10; i++){
     print('${number} * ${i}: ${number * i}');
   }
+
+  // FOR IN STATEMENT
+  List<String> myList = ['First Element', 'Second Element', 'Third Element', 'Fourth Element'];
+  for (var element in myList) {
+    print("${element}");
+  }
 }
