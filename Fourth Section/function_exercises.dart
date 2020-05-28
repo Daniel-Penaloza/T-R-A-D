@@ -1,12 +1,6 @@
 import 'dart:io';
 
 main() {
-
-  // Ejemplo: 
-  // Crear una función para imprimir STDOUTS en lugar de 
-  // la siguiente línea. Luego todos los stdouts deberían ser
-  // llamados usando nuestra función personalizada
-  
     for(var i = 1; i <=2; i++){
       if(i == 1){
         printInformation(position: i, salary: 1500);
@@ -15,7 +9,6 @@ main() {
       } else {
         break;
       };
-      
     };
 }
 
