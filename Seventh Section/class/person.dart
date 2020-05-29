@@ -11,7 +11,14 @@ class Person {
   set bio (String bio){
     _bio = bio;
   }
+  
   // Constructors
+  Person({name, age}){ 
+    this.name = name;
+    this.age = age;
+    _bio = 'Hi from the constructor';
+  }
+
 
   // Methods
   @override
