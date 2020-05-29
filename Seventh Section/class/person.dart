@@ -6,7 +6,11 @@ class Person {
   String _bio = 'Private property';
 
   // Gets and sets
-
+  String get bio => _bio.toUpperCase();
+  
+  set bio (String bio){
+    _bio = bio;
+  }
   // Constructors
 
   // Methods
