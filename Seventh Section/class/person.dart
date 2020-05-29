@@ -13,11 +13,18 @@ class Person {
   }
   
   // Constructors
-  Person({name, age}){ 
-    this.name = name;
-    this.age = age;
-    _bio = 'Hi from the constructor';
-  }
+  //Person({String name, int age}){ 
+  //  this.name = name;
+  //  this.age = age;
+  //  _bio = 'Hi from the constructor';
+  //}
+
+  Person(
+    {
+      this.name = 'Default', 
+      this.age = 0
+    }
+  );
 
 
   // Methods
