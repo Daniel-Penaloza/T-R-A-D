@@ -2,7 +2,8 @@ class Person {
   // Fields and properties
   String name;
   int age;
-  String bio;
+  //Private propertie with _
+  String _bio = 'Private property';
 
   // Gets and sets
 
@@ -10,5 +11,5 @@ class Person {
 
   // Methods
   @override
-  String toString() => '$name $age $bio';
+  String toString() => '$name $age $_bio';
 }
