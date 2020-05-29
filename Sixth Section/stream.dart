@@ -1,14 +1,22 @@
 import 'dart:async';
 
 main() {
-  final streamController = StreamController();
+  final streamController = new StreamController<String>.broadcast();
 
   streamController.stream.listen(
-    (data) => print('Flying! $data'),
+    (data) => print('Flying Apollo 14! $data'),
     onError: (err) => print('Error! $err'),
     onDone: () => print('Mision Completa'),
     cancelOnError: false
   );
+
+  streamController.stream.listen(
+    (data) => print('Flying Space X! $data'),
+    onError: (err) => print('Error! $err'),
+    onDone: () => print('Mision Completa'),
+    cancelOnError: false
+  );
+
 
   // Adding information to the stream
   streamController.sink.add('Space X1');
