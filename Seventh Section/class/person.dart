@@ -26,6 +26,10 @@ class Person {
     }
   );
 
+  //Constructor with name
+  Person.person30(this.name){
+    this.age = 30;
+  }
 
   // Methods
   @override
